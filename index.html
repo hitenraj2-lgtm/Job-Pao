@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Job Pao helps job seekers discover government and private job opportunities, official notifications, admit cards and results.">
+<title>Job Pao — Find Jobs. Build Your Future.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#"><span class="brand-mark">JP</span><span>JOB <b>PAO</b><small>YOUR CAREER STARTS HERE</small></span></a>
+<nav><a href="#jobs">Latest Jobs</a><a href="#categories">Categories</a><a href="#resources">Official Links</a><a href="#about">About</a></nav>
+<a class="nav-cta" href="#jobs">Explore Jobs <span>↗</span></a><button class="menu" aria-label="Open menu">☰</button></header>
+<main>
+<section class="hero"><div class="hero-copy"><div class="eyebrow"><span></span> OPPORTUNITIES FOR EVERYONE</div>
+<h1>Your next<br><em>opportunity</em><br>starts here.</h1><p>Find government and private job updates, official notifications, admit cards and results — all in one place.</p>
+<div class="hero-actions"><a class="primary" href="#jobs">Explore latest jobs <span>→</span></a><a class="secondary" href="#resources">Official websites</a></div>
+<div class="trust"><div class="avatars">● ● ●</div><span>Clear information. Official application links.</span></div></div>
+<div class="hero-art"><div class="orb"></div><div class="art-card card-one"><span class="mini-icon">✦</span><b>New opportunities</b><small>One step closer to your goal</small><div class="progress"><i></i></div></div><div class="art-card card-two"><div class="doc-icon">▤</div><div><b>Official notifications</b><small>PDFs & application links</small></div><span class="arrow">↗</span></div><div class="art-stamp">YOUR<br>FUTURE<br>AWAITS</div></div></section>
+<section class="search-wrap" id="jobs"><div class="search-heading"><div><div class="eyebrow">JOB DISCOVERY</div><h2>Find the right job for you</h2></div><span class="update-note">Always verify dates on the official website.</span></div>
+<div class="filters"><label class="searchbox">⌕ <input id="search" placeholder="Search job title, department or keyword..."></label><select id="type"><option value="">All job types</option><option>Government</option><option>Private</option></select><select id="state"><option value="">All locations</option><option>Bihar</option><option>All India</option></select><button id="clear" class="clear">Reset</button></div>
+<div class="job-status"><span id="count">0 resources</span><span class="live-dot"></span><span>Official recruitment portals & useful resources</span></div>
+<div class="job-grid" id="jobGrid"></div>
+<div class="empty" id="empty" hidden>No matching resources. Try another search.</div>
+</section>
+<section class="categories" id="categories"><div class="section-head"><div><div class="eyebrow">EXPLORE BY CATEGORY</div><h2>Where do you want to go?</h2></div><p>Choose a career path and explore relevant recruitment portals.</p></div>
+<div class="category-grid">
+<a href="#resources" class="category"><span>🏛️</span><b>Government Jobs</b><small>Central & state vacancies</small><i>↗</i></a>
+<a href="#resources" class="category"><span>🏦</span><b>Banking Jobs</b><small>Public & private banks</small><i>↗</i></a>
+<a href="#resources" class="category"><span>🚆</span><b>Railway Jobs</b><small>RRB recruitment updates</small><i>↗</i></a>
+<a href="#resources" class="category"><span>💼</span><b>Private Jobs</b><small>Corporate & entry-level roles</small><i>↗</i></a>
+<a href="#resources" class="category"><span>🎓</span><b>Freshers Jobs</b><small>Start your career</small><i>↗</i></a>
+<a href="#resources" class="category"><span>📝</span><b>Admit Cards & Results</b><small>Exam updates & outcomes</small><i>↗</i></a>
+</div></section>
+<section class="resources" id="resources"><div class="section-head"><div><div class="eyebrow">TRUSTED SOURCES</div><h2>Go straight to the source</h2></div><p>Use official websites to confirm eligibility, dates, fees and application details.</p></div>
+<div class="resource-grid" id="resourceGrid"></div></section>
+<section class="notice"><div class="notice-icon">✓</div><div><b>Stay safe while applying</b><p>Job Pao is an information guide. Always read the official notification before applying. Never pay money to an individual promising a job.</p></div></section>
+<section class="about" id="about"><div><div class="eyebrow">ABOUT JOB PAO</div><h2>Good information.<br><em>Better opportunities.</em></h2></div><p>Job Pao aims to make job information easier to find for students, freshers and job seekers. We bring useful recruitment links and notification resources together so you can take the next step with confidence.</p></section>
+</main>
+<footer><a class="brand footer-brand" href="#"><span class="brand-mark">JP</span><span>JOB <b>PAO</b><small>YOUR CAREER STARTS HERE</small></span></a><span>© <span id="year"></span> Job Pao. Built to help job seekers.</span><a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a></footer>
+<script src="script.js"></script>
+</body></html>
